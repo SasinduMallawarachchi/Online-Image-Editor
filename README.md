@@ -1,1 +1,7 @@
-![Logo](https://raw.githubusercontent.com/SasinduMallawarachchi/Online-Image-Editor/master/Screenshot.png)
+
+## Try Live Demo
+with this given link
+
+```bash
+  https://imageeditor-b3be6.web.app/
+```
