@@ -27,7 +27,6 @@ const applyFilter = () => {
     previewImg.style.transform = `rotate(${rotate}deg) scale(${flipHorizontal}, ${flipVertical})`;
     previewImg.style.filter = `brightness(${brightness}%) saturate(${saturation}%) invert(${inversion}%) grayscale(${grayscale}%)`;
 }
-
 filterOptions.forEach(option => {
     option.addEventListener("click", () => {
         document.querySelector(".active").classList.remove("active");
@@ -84,7 +83,6 @@ rotateOptions.forEach(option => {
         applyFilter();
     });
 });
-
 const resetFilter = () => {
     brightness = "100"; saturation = "100"; inversion = "0"; grayscale = "0";
     rotate = 0; flipHorizontal = 1; flipVertical = 1;
