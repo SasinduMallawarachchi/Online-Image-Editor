@@ -10,6 +10,7 @@ resetFilterBtn = document.querySelector(".reset-filter"),
 chooseImgBtn = document.querySelector(".choose-img"),
 saveImgBtn = document.querySelector(".save-img");
 
+// creating variables for elements
 let brightness = "100", saturation = "100", inversion = "0", grayscale = "0";
 let rotate = 0, flipHorizontal = 1, flipVertical = 1;
 
