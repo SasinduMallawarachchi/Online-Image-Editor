@@ -28,6 +28,7 @@ const applyFilter = () => {
     previewImg.style.transform = `rotate(${rotate}deg) scale(${flipHorizontal}, ${flipVertical})`;
     previewImg.style.filter = `brightness(${brightness}%) saturate(${saturation}%) invert(${inversion}%) grayscale(${grayscale}%)`;
 }
+
 filterOptions.forEach(option => {
     option.addEventListener("click", () => {
         document.querySelector(".active").classList.remove("active");
