@@ -112,6 +112,7 @@ const saveImage = () => {
     link.href = canvas.toDataURL();
     link.click();
 }
+
 //adding functional features
 filterSlider.addEventListener("input", updateFilter);
 resetFilterBtn.addEventListener("click", resetFilter);
